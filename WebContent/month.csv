@@ -1,0 +1,14 @@
+month,Infection,Patient_infected
+jan,blood,100
+jan,surgical,200
+jan,urinary,100
+jan,pneumonia,200
+feb,blood,100
+feb,surgical,300
+feb,urinary,400
+feb,pneumonia,200
+march,blood,100
+march,surgical,200
+april,blood,100
+april,surgical,200
+`

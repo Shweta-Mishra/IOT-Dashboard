@@ -1,0 +1,29 @@
+{
+"name":"flare",
+"children":[
+{
+"name":"flex",
+"children":[
+{"name":"central line-associated bloodstream infections","size":4500}
+]
+},
+{
+"name":"query",
+"children":[
+{"name":"catheter-associated urinary tract infections","size":6500}
+]
+},
+{
+"name":"data",
+"children":[
+{"name":"surgical site infection","size":3520}
+]
+},
+{
+"name":"scale",
+"children":[
+{"name":"ventilator-associated pneumonia","size":4000}
+]
+}
+]
+}

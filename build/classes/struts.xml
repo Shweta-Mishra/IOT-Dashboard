@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE struts PUBLIC "-//Apache Software Founsdation//DTD Struts 
+	Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd"> -->
+   
+   
+ <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.mapper.action.prefix.enabled" value="true" />
+	<package name="shweta" extends="struts-default">
+			
+	<action name="input" class="action.Retrivepiechart"
+			method="execute">
+			<result name="success">/result2.jsp</result>
+		</action>
+		
+		<action name="login" class="action.Login"
+			method="execute">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		
+	<action name="getInfect" class="action.GetInfect"
+			method="execute">
+			<result name="success">/result.jsp</result>
+			</action>
+	<action name="BarChart" class="action.BarChart"
+			method="execute">
+			<result name="success">/outputbarmonth.jsp</result>
+	<result name="success1">/outputbaryear.jsp</result>
+	<result name="success2">/outputpiemonth.jsp</result>
+	<result name="success3">/outputpieyear.jsp</result>
+	<result name="success4">/outputbubblemonth.jsp</result>
+	<result name="success5">/outputbubbleyear.jsp</result>
+	
+	<result name="fail">/HomePage.jsp</result>
+		</action>
+		
+		<action name="Showkpi" class="action.BarChart" method="showDropDown">
+	<result name="drop">/DashBoard.jsp</result>
+	</action>
+	</package>
+</struts>
